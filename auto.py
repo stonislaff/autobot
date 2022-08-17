@@ -12,7 +12,7 @@ dp = Dispatcher(bot)
 
 
 #подключение бд:
-cluster = MongoClient("mongodb+srv://user:AdSSc394d@cluster0.ptaiu.mongodb.net/Autobot_db?retryWrites=true&w=majority")
+cluster = MongoClient("")
 db = cluster["Autobot_db"]
 collection = db["Autobot_coll"]
 chat__id = 0;
