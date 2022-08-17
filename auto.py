@@ -27,8 +27,8 @@ Greeting_message = 'Поздравляем! Вы подписались на К�
 
 @dp.message_handler()
 async def Commands(msg: types.Message):
-	admin_id = '208828347'
-	chanel_id = '-1001203166433'
+	admin_id = '204828347'
+	chanel_id = '-1002203166433'
 	if msg.text == "/start":
 		if Adv_coll.count_documents({"_id": msg.from_user.id}) == 0:
 			Adv_coll.insert_one({"_id": msg.from_user.id,"City": "0", "Marka": "0", "Model": "0", "Price" : "0", "BirthYear": "0", "EngineSize": "0", "Mileage": "0", "KbPeredach": "0", "Detail" : "0",'Number': ' ' ,"Picture_Name" : []})	
