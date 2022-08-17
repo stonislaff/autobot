@@ -7,7 +7,7 @@ import keyboards as kb
 from random import randint
 from aiogram.types import InputMediaPhoto
 
-bot = Bot(token = '1530525354:AAFwUEexwyZK0_nDd1bjWf5WAlY4aveeY4E') #токен бота
+bot = Bot(token = '') #bot token
 dp = Dispatcher(bot)
 
 
